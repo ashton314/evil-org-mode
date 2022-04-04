@@ -814,5 +814,10 @@ Optional argument THEME list of themes. See evil-org-key-theme for a list of val
 ;; Set customizable theme
 (evil-org-set-key-theme evil-org-key-theme)
 
+(defun evil-org ()
+  "Dummy function"
+  (interactive)
+  42)
+
 (provide 'evil-org)
 ;;; evil-org.el ends here
